@@ -1,0 +1,11 @@
+.wrapper {
+  max-width: 100%;
+}
+
+.wrapperContent {
+  max-width: 46rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
