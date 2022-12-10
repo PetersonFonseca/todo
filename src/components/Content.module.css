@@ -1,8 +1,6 @@
 .wrapper {
-  margin-top: 4rem;
   width: 46rem;
-  height: 28rem;
   display: flex;
   flex-direction: column;
-  background: #abeafe;
+  background: #3ae768;
 }

@@ -1,0 +1,22 @@
+.wrapper {
+  width: 46rem;
+  height: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.wrapper p {
+  font-size: 14;
+  font-weight: bold;
+}
+
+.wrapper span {
+  font-size: 12;
+  font-weight: bold;
+  background: var(--gray-200);
+  border-radius: 40%;
+  padding: 2px 5px;
+  margin-left: 5px;
+}

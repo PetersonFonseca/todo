@@ -1,7 +1,11 @@
+import styles from './ContentWrapper.module.css'
+import { Content } from './Content'
+import { HeaderContent } from './HearderContent'
 export function ContentWrapper() {
   return (
-    <div>
-      <p>Conteúdo 2</p>
+    <div className={styles.wrapper}>
+      <HeaderContent />
+      <Content />
     </div>
   )
 }
