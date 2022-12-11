@@ -4,6 +4,10 @@ export function Content() {
   return (
     <div className={styles.wrapper}>
       <Item />
+      <Item />
+      <Item />
+      <Item />
+      <Item />
     </div>
   )
 }

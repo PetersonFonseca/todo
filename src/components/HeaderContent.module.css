@@ -5,6 +5,7 @@
   align-items: center;
   display: flex;
   margin-bottom: 1.5rem;
+  padding-top: 0.5rem;
 }
 
 .wrapper p {
@@ -12,11 +13,20 @@
   font-weight: bold;
 }
 
+.pLeft {
+  color: var(--blue);
+}
+
+.pRight {
+  color: var(--purple-dark);
+}
+
 .wrapper span {
   font-size: 12;
   font-weight: bold;
-  background: var(--gray-200);
+  background: var(--gray-400);
   border-radius: 40%;
   padding: 2px 5px;
   margin-left: 5px;
+  color: var(--gray-200);
 }

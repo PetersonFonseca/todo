@@ -2,5 +2,23 @@
   width: 46rem;
   height: 4.5rem;
   display: flex;
-  background: #abaafe;
+  align-items: center;
+  background: var(--gray-500);
+}
+
+.wrapper+.wrapper {
+  margin-top: 1rem;
+}
+
+.content {
+  width: 46rem;
+  display: flex;
+  align-items: stretch;
+  padding: 0 15px;
+}
+
+.content label {
+  margin: 0 20px 0 10px;
+  font-size: 0.875rem;
+  color: var(--gray-100)
 }
