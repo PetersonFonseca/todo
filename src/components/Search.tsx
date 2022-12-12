@@ -1,7 +1,7 @@
 import styles from './Search.module.css'
 import { PlusCircle } from 'phosphor-react'
 
-export function Search() {
+export function Search({ todoListProps }) {
   return (
     <form className={styles.searchForm}>
       <input placeholder='Adicione uma nova tarefa' />
