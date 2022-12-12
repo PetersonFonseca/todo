@@ -1,4 +1,4 @@
-.searchForm {
+.createForm {
   width: 46rem;
   height: 54px;
   display: flex;
@@ -6,7 +6,7 @@
   margin-top: -60px
 }
 
-.searchForm input {
+.createForm input {
   width: 40rem;
   height: 54px;
   background: var(--gray-500);
@@ -17,7 +17,7 @@
   border: 0.5px solid var(--gray-700);
 }
 
-.searchForm button[type="submit"] {
+.createForm button[type="submit"] {
   border-radius: 8px;
   border: 0;
   background: var(--blue-dark);
@@ -32,6 +32,6 @@
   gap: 0.4rem;
 }
 
-.searchForm button[type="submit"]:hover {
+.createForm button[type="submit"]:hover {
   background: var(--blue);
 }

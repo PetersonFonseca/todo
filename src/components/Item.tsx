@@ -1,11 +1,9 @@
 import styles from './Item.module.css'
 import { Trash } from 'phosphor-react'
 
-export function Item({ item }) {
+export function Item({ item, handleCheck }) {
 
-  function handleCheck() {
 
-  }
   return (
     <div className={styles.wrapper}>
       <div className={styles.content}>
