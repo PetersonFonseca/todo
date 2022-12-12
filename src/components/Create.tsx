@@ -16,7 +16,7 @@ export function Create({ todoList, createItem }) {
         onChange={handleChange}
         value={itemText}
       />
-      <button type='submit' onClick={() => createItem(itemText)}>
+      <button type='submit' onSubmit={() => createItem(itemText)}>
         Criar
         <PlusCircle size={16} />
       </button>

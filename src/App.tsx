@@ -5,7 +5,6 @@ import { ContentWrapper } from './components/ContentWrapper'
 import { Header } from './components/Header'
 import { Create } from './components/Create'
 function App() {
-  const [count, setCount] = useState(0)
   const [todoList, setTodoList] = useState([])
   const [checked, setChecked] = useState([])
 
@@ -16,11 +15,11 @@ function App() {
   //   "4 Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.",
   // ]
 
-  // useEffect(() => {
-  //   setTodoList(todoListArray)
-  // }, [])
+  useEffect(() => {
 
-  function handleCheck() {
+  }, [todoList])
+
+  function handleCheck(event) {
     let updatedList = [...checked];
     if (event.target.checked) {
       updatedList = [...checked, event.target.value]
