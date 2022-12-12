@@ -30,10 +30,9 @@ function App() {
   }
 
   function createItem(itemText) {
-
+    event.preventDefault();
     let updatedTodoList = [...todoList, itemText]
     setTodoList(updatedTodoList)
-
   }
 
 
