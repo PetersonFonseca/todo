@@ -1,5 +1,10 @@
 import styles from './HeaderContent.module.css'
-export function HeaderContent({ checked, todoList }) {
+
+interface HeaderContentProps {
+  checked: [];
+  todoList: [];
+}
+export function HeaderContent({ checked, todoList }: HeaderContentProps) {
   return (
     <div className={styles.wrapper}>
       <p className={styles.pLeft}>Tarefas criadas<span>{todoList.length}</span></p>

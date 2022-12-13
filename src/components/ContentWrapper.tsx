@@ -1,8 +1,13 @@
 import styles from './ContentWrapper.module.css'
 import { Content } from './Content'
 import { HeaderContent } from './HearderContent'
-import { useState } from 'react'
-export function ContentWrapper({ todoList, handleCheck, checked }) {
+
+interface ContentWrapperProps {
+  todoList: [];
+  handleCheck: void;
+  checked: [];
+}
+export function ContentWrapper({ todoList, handleCheck, checked }: ContentWrapperProps) {
   return (
     <div className={styles.wrapper}>
       <HeaderContent checked={checked} todoList={todoList} />
